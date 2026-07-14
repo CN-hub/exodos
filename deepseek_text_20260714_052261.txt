@@ -1,0 +1,15 @@
+exodo/
+├── api/              # Endpoints da API
+├── assets/           # CSS, JS, imagens
+├── auth/             # Autenticação
+├── backups/          # Backups do sistema
+├── certificados/     # Certificados digitais
+├── config/           # Configurações
+├── cron/             # Scripts agendados
+├── dashboard/        # Interface principal
+├── includes/         # Componentes reutilizáveis
+├── login/            # Tela de login
+├── logs/             # Logs do sistema
+├── update/           # Atualizador automático
+├── uploads/          # Arquivos enviados
+└── .env              # Configurações de ambiente

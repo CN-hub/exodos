@@ -1,0 +1,78 @@
+exodo/
+├── api/
+│   ├── assinatura_digital.php
+│   ├── coletar.php
+│   ├── login_jwt.php
+│   ├── sefac_ce.php
+│   └── upload_sped.php
+├── assets/
+│   ├── css/
+│   │   ├── temas.css
+│   │   ├── ravetech-brand.css
+│   │   └── portais.css
+│   ├── js/
+│   │   ├── tema.js
+│   │   ├── init.js
+│   │   └── script.js
+│   └── images/
+│       ├── logo-ravetech.svg
+│       ├── juazeiro-map.svg
+│       └── favicon.ico
+├── auth/
+│   ├── token_validator.php
+│   └── jwt_auth.php
+├── backups/
+│   └── .gitkeep
+├── build/
+│   └── update_builder.sh
+├── certificados/
+│   └── .gitkeep
+├── config/
+│   ├── constants.php
+│   ├── database.php
+│   ├── database_full.sql
+│   ├── database_update.sql
+│   ├── feriados_juazeiro.php
+│   ├── theme_config.php
+│   └── versao.json
+├── cron/
+│   ├── backup_automatico.php
+│   ├── backup_restore.php
+│   ├── notificacoes.php
+│   └── verificar_backup.php
+├── dashboard/
+│   ├── index.php
+│   ├── portais.php
+│   ├── upload.php
+│   ├── relatorios.php
+│   ├── graficos.php
+│   ├── assinatura.php
+│   ├── integracao_sefaz.php
+│   ├── calendario_juazeiro.php
+│   └── atualizacao.php
+├── includes/
+│   ├── versao.php
+│   ├── versao_display.php
+│   ├── footer_juazeiro.php
+│   └── sidebar.php
+├── login/
+│   └── index.php
+├── logs/
+│   └── .gitkeep
+├── update/
+│   └── update.php
+├── uploads/
+│   └── .gitkeep
+├── .env.example
+├── .gitignore
+├── .htaccess
+├── index.php
+├── contato.php
+├── sobre.php
+├── LICENSE
+├── COPYRIGHT.md
+├── NOTICE
+├── README.md
+├── composer.json
+├── setup.sh
+└── deploy.sh

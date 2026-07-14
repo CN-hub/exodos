@@ -1,0 +1,50 @@
+# ============================================
+# ÊXODO - VARIÁVEIS DE AMBIENTE
+# Sistema de Controle Fiscal
+# ============================================
+
+# BANCO DE DADOS
+DB_HOST=localhost
+DB_NAME=exodo_fiscal
+DB_USER=root
+DB_PASS=suasenha_aqui
+
+# SEGURANÇA
+JWT_SECRET=chave_super_secreta_123!@#MUDE_ISSO_NO_SERVIDOR
+JWT_EXPIRATION=3600
+
+# CERTIFICADO DIGITAL
+CERT_PATH=certificados/cert.pfx
+CERT_PASSWORD=senha_certificado
+
+# EMAIL (SMTP)
+SMTP_HOST=smtp.gmail.com
+SMTP_USER=raventech.suporte@gmail.com
+SMTP_PASS=senha_app_do_gmail
+SMTP_PORT=587
+SMTP_SECURE=tls
+
+# BACKUP
+BACKUP_DIR=backups/
+BACKUP_RETENTION=30
+BACKUP_EMAIL=raventech.suporte@gmail.com
+
+# SEFAZ-CE
+SEFAZ_TOKEN=seu_token_api_sefaz
+SEFAZ_URL=https://api.sefaz.ce.gov.br/v1
+
+# SISTEMA
+APP_NAME="Êxodo - Sistema de Controle Fiscal"
+APP_URL=https://seudominio.com
+APP_ENV=production
+APP_DEBUG=false
+TIMEZONE=America/Fortaleza
+
+# ATUALIZAÇÃO
+UPDATE_URL=https://updates.ravetech.com.br/exodo/
+UPDATE_VERSAO_URL=https://updates.ravetech.com.br/exodo/versao.json
+
+# CONTATO
+EMAIL_SUPORTE=raventech.suporte@gmail.com
+WHATSAPP=(88) 9 2174-3545
+TELEFONE=(88) 9217-43545
